@@ -1,0 +1,81 @@
+*{
+	margin : 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+body{
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/background.jpg'); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	color:#F8EDEA;
+
+
+
+}
+
+p{
+	color :#EEBDB2;
+	margin:10px 0;
+
+}
+
+
+.row{
+
+	max-width: 1180px;
+	margin :0 auto;
+	margin-top: 15%;
+
+
+}
+
+li{
+	margin:10px 0;
+}
+
+a{
+	text-decoration: none;
+	color: #4C1003;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+h1{
+	text-align: center;
+	color:forestgreen;
+	margin: 30px 0 50px;
+
+}
+
+.gallery{
+	margin:10px 50px;
+}
+
+.gallery img{
+	width: 230px;
+	padding: 5px;
+	transition: 1s;
+	filter: grayscale(100%);
+	transition: 1s;
+}
+
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1); 
+}
+
+
+
+
+
